@@ -1,0 +1,136 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.width-70 {
+  width: 70%;
+}
+
+.flex-container {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.header {
+  height: 50px;
+  border: solid black 1px;
+  padding-bottom: 20px;
+  background-color: #203c20;
+  color: white;
+}
+
+.list-container {
+  height: 65%;
+  margin-top: 15%;
+  margin-bottom: 15%;
+}
+
+.search-container {
+  background-color: white;
+  height: 100px;
+  padding-top: 20px;
+}
+
+.header-container {
+  position: fixed;
+  width: inherit;
+  top: 0;
+}
+
+.image {
+  max-width: 300px;
+  max-height: 300px;
+  margin: 10px;
+}
+
+.loader {
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  background-color: gray;
+}
+
+.tag {
+  min-width: 100px;
+  margin-right: 10px;
+  margin-top: 5px;
+  border: solid #120e16 1px;
+  border-radius: 5px;
+  background-color: #abb3ab;
+  height: 29px;
+  cursor: pointer;
+}
+
+.tags-container {
+  margin-top: 10px;
+  flex-wrap: wrap;
+}
+
+.search-input {
+  display: flex;
+  margin: inherit;
+}
+
+.search-input>label {
+  margin-right: 10px;
+}
+
+.search-input>button {
+  margin-left: 20px;
+}
+
+.closeModal {
+  width: 40px;
+}
+
+@media screen and (max-width: 480px) {
+  .width-70 {
+    width: 100%;
+  }
+}
